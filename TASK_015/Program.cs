@@ -7,7 +7,7 @@
 Console.WriteLine("Введите цифру, обозначающую день недели:  ");
 int number = int.Parse(Console.ReadLine());
 
-if (number >= 6) 
+if (number >= 6 && number <= 7) 
 {
     Console.Write($"Это выходной день");
 }
